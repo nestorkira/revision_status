@@ -111,8 +111,8 @@ if file:
 
     df = df.sort_values(["Equipo", "Hora Inicio"]).reset_index(drop=True)
 
-    hora_inicio_global = datetime.combine(date.today(), time(6, 30))
-    hora_fin_global   = datetime.combine(date.today(), time(18, 30))
+    hora_inicio_global = datetime.combine(date.today(), time(7, 00))
+    hora_fin_global   = datetime.combine(date.today(), time(19, 00))
 
     colores_estado = {
         "Operativo": "#00B050",
