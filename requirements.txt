@@ -2,4 +2,4 @@
 plotly==6.5.0
 streamlit==1.45.0
 openpyxl==3.1.5
-pyarrow==18.1.0
+
